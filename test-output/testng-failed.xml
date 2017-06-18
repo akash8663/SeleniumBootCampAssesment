@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="tests">
+  <test name="ChromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
     <classes>
       <class name="seleniumTaskTests.AutomationHotelTest">
         <methods>
           <include name="loadApp"/>
+          <include name="exitingApp"/>
           <include name="testApp"/>
         </methods>
       </class> <!-- seleniumTaskTests.AutomationHotelTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- ChromeTest(failed) -->
+  <test name="FirefoxTest(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="seleniumTaskTests.AutomationHotelTest">
+        <methods>
+          <include name="loadApp"/>
+          <include name="exitingApp"/>
+          <include name="testApp"/>
+        </methods>
+      </class> <!-- seleniumTaskTests.AutomationHotelTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

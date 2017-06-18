@@ -6,6 +6,7 @@
       <class name="seleniumTaskTests.AutomationHotelTest">
         <methods>
           <include name="loadApp"/>
+          <include name="exitingApp"/>
           <include name="testApp"/>
         </methods>
       </class> <!-- seleniumTaskTests.AutomationHotelTest -->
