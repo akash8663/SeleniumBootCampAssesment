@@ -2,35 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="93696" started-at="2017-06-18T09:34:28Z" finished-at="2017-06-18T09:36:02Z">
+  <suite name="TestSuite" duration-ms="92623" started-at="2017-06-20T05:37:38Z" finished-at="2017-06-20T05:39:11Z">
     <groups>
     </groups>
-    <test name="FirefoxTest" duration-ms="86509" started-at="2017-06-18T09:34:28Z" finished-at="2017-06-18T09:35:54Z">
+    <test name="ChromeTest" duration-ms="81645" started-at="2017-06-20T05:37:38Z" finished-at="2017-06-20T05:39:00Z">
       <class name="seleniumTaskTests.AutomationHotelTest">
-        <test-method status="PASS" signature="loadApp(java.lang.String)[pri:0, instance:seleniumTaskTests.AutomationHotelTest@4f933fd1]" name="loadApp" is-config="true" duration-ms="53992" started-at="2017-06-18T05:34:28Z" finished-at="2017-06-18T05:35:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadApp -->
-        <test-method status="PASS" signature="testApp()[pri:0, instance:seleniumTaskTests.AutomationHotelTest@4f933fd1]" name="testApp" duration-ms="31745" started-at="2017-06-18T05:35:22Z" finished-at="2017-06-18T05:35:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testApp -->
-        <test-method status="PASS" signature="exitingApp()[pri:0, instance:seleniumTaskTests.AutomationHotelTest@4f933fd1]" name="exitingApp" is-config="true" duration-ms="763" started-at="2017-06-18T05:35:54Z" finished-at="2017-06-18T05:35:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exitingApp -->
-      </class> <!-- seleniumTaskTests.AutomationHotelTest -->
-    </test> <!-- FirefoxTest -->
-    <test name="ChromeTest" duration-ms="93696" started-at="2017-06-18T09:34:28Z" finished-at="2017-06-18T09:36:02Z">
-      <class name="seleniumTaskTests.AutomationHotelTest">
-        <test-method status="PASS" signature="loadApp(java.lang.String)[pri:0, instance:seleniumTaskTests.AutomationHotelTest@6d8a00e3]" name="loadApp" is-config="true" duration-ms="6147" started-at="2017-06-18T05:34:28Z" finished-at="2017-06-18T05:34:34Z">
+        <test-method status="PASS" signature="loadApp(java.lang.String)[pri:0, instance:seleniumTaskTests.AutomationHotelTest@6d8a00e3]" name="loadApp" is-config="true" duration-ms="14941" started-at="2017-06-20T01:37:38Z" finished-at="2017-06-20T01:37:53Z">
           <params>
             <param index="0">
               <value>
@@ -41,15 +18,38 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadApp -->
-        <test-method status="PASS" signature="testApp()[pri:0, instance:seleniumTaskTests.AutomationHotelTest@6d8a00e3]" name="testApp" duration-ms="87311" started-at="2017-06-18T05:34:34Z" finished-at="2017-06-18T05:36:01Z">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:seleniumTaskTests.AutomationHotelTest@6d8a00e3]" name="testApp" duration-ms="64284" started-at="2017-06-20T01:37:53Z" finished-at="2017-06-20T01:38:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testApp -->
-        <test-method status="PASS" signature="exitingApp()[pri:0, instance:seleniumTaskTests.AutomationHotelTest@6d8a00e3]" name="exitingApp" is-config="true" duration-ms="223" started-at="2017-06-18T05:36:01Z" finished-at="2017-06-18T05:36:02Z">
+        <test-method status="PASS" signature="exitingApp()[pri:0, instance:seleniumTaskTests.AutomationHotelTest@6d8a00e3]" name="exitingApp" is-config="true" duration-ms="2267" started-at="2017-06-20T01:38:57Z" finished-at="2017-06-20T01:39:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exitingApp -->
       </class> <!-- seleniumTaskTests.AutomationHotelTest -->
     </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="92623" started-at="2017-06-20T05:37:38Z" finished-at="2017-06-20T05:39:11Z">
+      <class name="seleniumTaskTests.AutomationHotelTest">
+        <test-method status="PASS" signature="loadApp(java.lang.String)[pri:0, instance:seleniumTaskTests.AutomationHotelTest@4f933fd1]" name="loadApp" is-config="true" duration-ms="53525" started-at="2017-06-20T01:37:38Z" finished-at="2017-06-20T01:38:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadApp -->
+        <test-method status="PASS" signature="testApp()[pri:0, instance:seleniumTaskTests.AutomationHotelTest@4f933fd1]" name="testApp" duration-ms="38807" started-at="2017-06-20T01:38:32Z" finished-at="2017-06-20T01:39:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+        <test-method status="PASS" signature="exitingApp()[pri:0, instance:seleniumTaskTests.AutomationHotelTest@4f933fd1]" name="exitingApp" is-config="true" duration-ms="285" started-at="2017-06-20T01:39:10Z" finished-at="2017-06-20T01:39:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitingApp -->
+      </class> <!-- seleniumTaskTests.AutomationHotelTest -->
+    </test> <!-- FirefoxTest -->
   </suite> <!-- TestSuite -->
 </testng-results>
